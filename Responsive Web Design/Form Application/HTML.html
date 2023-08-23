@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Welcome To My Page!</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1 id="title">Welcome To My Page!</h1>
+  <p id="description">Please fill out the form below:</p>
+  <form id="survey-form">
+    <label for="name" id="name-label">Name:</label>
+    <input type="text" id="name" placeholder="Enter your name" required>
+
+    <label for="email" id="email-label">Email:</label>
+    <input type="email" id="email" placeholder="Enter your email" required>
+
+    <label for="number" id="number-label">Age:</label>
+    <input type="number" id="number" placeholder="Enter a number" min="1" max="100" required>
+
+    <label for="dropdown">Work</label>
+    <select id="dropdown">
+      <option value="option1">Student</option>
+      <option value="option2">Intern</option>
+<option
+value="option3">Apprentice</option>
+<option      value="option4">Part-time</option>
+<option      value="option5">Full-Time</option>
+
+</select>
+    <label>What sector do you work in?</label>
+    
+    <label for="option1">Accounting</label>
+    <input type="radio" id="option1" name="options" value="option1">
+    <label for="option2">Business</label>
+    <input type="radio" id="option2" name="options" value="option2">
+<label for="option5">Computer Science</label>
+    <input type="radio" id="option5" name="options" value="option5">
+  
+    <label for="option3">Enviroment</label>
+  <input type="radio" id="option3" name="options" value="option3">
+    <label for="option4">Healthcare</label>
+    <input type="radio" id="option4" name="options" value="option4">
+    <label for="option5">Other</label>
+<input type="radio" id="option5" name="options" value="option5">
+
+    <label>What are your favorite activities?</label>
+    
+    <label for="checkbox1">Sport</label>
+<input type="checkbox" id="checkbox1" value="checkbox1">
+    <label for="checkbox2">Watching movies</label>
+<input type="checkbox" id="checkbox2" value="checkbox2">
+    <label for="checkbox3">Reading</label>
+<input type="checkbox" id="checkbox3" value="checkbox3">
+    <label for="checkbox4">Other</label>
+<input type="checkbox" id="checkbox4" value="checkbox4">
+
+
+    <label for="comments">Leave a note</label>
+    <textarea id="comments" placeholder="Enter your comments"></textarea>
+
+    <button type="submit" id="submit">Submit</button>
+  </form>
+</body>
+</html>
